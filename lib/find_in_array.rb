@@ -1,12 +1,10 @@
 def find_element_index(array, value_to_find)
-  
-end
-
-def output_array_elements(array)
   counter = 0
  
   while counter < array.length do
-    puts array[counter]
+    array[counter]
     counter += 1
+  if array[counter] == value_to_find
+    index
   end
 end
